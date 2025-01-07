@@ -3,6 +3,13 @@ import React from 'react'
 import { BsChevronDown } from 'react-icons/bs'
 
 const SortSelector = () => {
+    const sortOrders = [
+        {value:'', label:''},
+        {value:'', label:''},
+        {value:'', label:''},
+        {value:'', label:''},
+        {value:'', label:''},
+    ]
     return (
         <Menu>
               <MenuButton as={Button} rightIcon={<BsChevronDown />}>
